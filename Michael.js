@@ -142,4 +142,4 @@ function printJobHook(inputs, actions) {
     var seedI32 = java.lang.String("" + seed).hashCode();
     return (new java.util.Random(seedI32)).nextDouble();
   }  
-}?
+}
